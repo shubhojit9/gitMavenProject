@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="118174" started-at="2019-04-03T22:09:52Z" finished-at="2019-04-03T22:11:50Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="118174" started-at="2019-04-03T22:09:52Z" finished-at="2019-04-03T22:11:50Z">
+      <class name="tests.NewTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.NewTest@42d8062c]" name="beforeClass" is-config="true" duration-ms="7876" started-at="2019-04-03T22:09:59Z" finished-at="2019-04-03T22:10:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="openMyBlog()[pri:0, instance:tests.NewTest@42d8062c]" name="openMyBlog" duration-ms="83552" started-at="2019-04-03T22:10:07Z" finished-at="2019-04-03T22:11:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openMyBlog -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.NewTest@42d8062c]" name="afterClass" is-config="true" duration-ms="11391" started-at="2019-04-03T22:11:30Z" finished-at="2019-04-03T22:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.NewTest -->
+      <class name="tests.ResumeUpdate">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tests.ResumeUpdate@45820e51]" name="beforeTest" is-config="true" duration-ms="6467" started-at="2019-04-03T22:09:52Z" finished-at="2019-04-03T22:09:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="resumeUpdate()[pri:0, instance:tests.ResumeUpdate@45820e51]" name="resumeUpdate" duration-ms="110438" started-at="2019-04-03T22:09:59Z" finished-at="2019-04-03T22:11:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resumeUpdate -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.ResumeUpdate@45820e51]" name="afterClass" is-config="true" duration-ms="1226" started-at="2019-04-03T22:11:49Z" finished-at="2019-04-03T22:11:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.ResumeUpdate -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

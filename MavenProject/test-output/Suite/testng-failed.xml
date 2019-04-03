@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Suite]" parallel="methods">
+  <test thread-count="2" name="Test1(failed)" parallel="methods">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests.ResumeUpdate">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="resumeUpdate"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- tests.ResumeUpdate -->
+      <class name="tests.NewTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="openMyBlog"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- tests.NewTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="2" name="Test2(failed)" parallel="methods">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="tests.ResumeUpdate">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="resumeUpdate"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- tests.ResumeUpdate -->
+      <class name="tests.NewTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="openMyBlog"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- tests.NewTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
